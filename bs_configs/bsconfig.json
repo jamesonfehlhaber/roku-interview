@@ -1,0 +1,20 @@
+{
+    "description": "bsconfig",
+    "rootDir": "../source",
+    "files": [
+        "manifest",
+        "source/*.*",
+        "source/**/*.*",
+        "components/**/*.*"
+    ],
+    "autoImportComponentScript": false,
+    "createPackage": false,
+    "stagingDir": "../build",
+    "plugins": [
+        "@rokucommunity/bslint"
+    ],
+    "sourceMap": true,
+    "diagnosticSeverityOverrides": {
+        "LINT1001": "warn"
+    }
+}

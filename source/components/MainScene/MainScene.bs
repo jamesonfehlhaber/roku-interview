@@ -1,0 +1,13 @@
+sub init()
+    di = createObject("roDeviceInfo")
+    displayInfo = di.getDisplaySize()
+    ' returns { h: 720, w: 1280 }
+    print displayInfo
+end sub
+
+function Colors() as object
+    return {
+        "lost": "0xFA8072FF",
+        "won": "0x90EE90FF"
+    }
+end function

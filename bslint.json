@@ -1,0 +1,10 @@
+{
+    "rules": {
+        "block-if-style": "then",
+        "eol-last": "never"
+    },
+    "ignores": [
+        "source/*.spec.bs",
+        "source/tests/*.spec.bs"
+    ]
+}

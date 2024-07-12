@@ -1,0 +1,31 @@
+{
+  "name": "roku-interview",
+  "version": "1.0.0",
+  "description": "Roku Interview Test",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx bslint",
+    "fmt-check": "npx bsfmt \"source/**/*.brs\" \"source/**/*.bs\" \"source/testrig/**/*.brs\" \"source/testrig/**/*.bs\" --check",
+    "fmt-write": "npx bsfmt \"source/**/*.brs\" \"source/**/*.bs\" \"source/testrig/**/*.brs\" \"source/testrig/**/*.bs\" --write",
+    "build": "npm run fmt-write && npx bsc --project bs_configs/bsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rokucommunity/bslint": "^0.8.20",
+    "brighterscript-formatter": "^1.7.1",
+    "ropm": "^0.10.23"
+  },
+  "devDependencies": {
+    "@rokucommunity/bslib": "^0.1.1",
+    "@types/node": "^20.12.12",
+    "brighterscript": "^0.67.1",
+    "roku-deploy": "^3.12.0",
+    "roku-log-bsc-plugin": "^0.8.1",
+    "rooibos-roku": "^5.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "undent": "^0.1.0"
+  }
+}
