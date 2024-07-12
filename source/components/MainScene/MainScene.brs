@@ -7,8 +7,8 @@ end sub
 
 function Colors() as object
     return {
-        "lost": "0xFA8072FF",
-        "won": "0x90EE90FF",
-        "background": "0x708090FF"
+        "lost": "0xB22222FF",
+        "won": "0x228B22FF",
+        "background": "0x696969FF"
     }
 end function
